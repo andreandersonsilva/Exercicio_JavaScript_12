@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <header>Verificador de idade</header>
+    <section>
+    <div>
+        <p>Ano de nascimento:
+            <input type="number" name="txtano" id="txtano" min="0">
+
+        </p>
+        <p>
+            <input type="radio" name="radsex" id="nas" checked>
+            <label id="nas">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label id="fem">Feminino</label>
+        </p>
+        <p>
+            <!--Aqui foi criado o botão para verificar o resultado no JavaScript-->
+            <input type="button" value="Verificar" onclick="verificar()">
+        </p>
+    </div>
+
+    <div id="res">
+        Preencha os dados acima para ver o resultado!
+
+    </div>
+
+    </section>
+    <footer>
+        <p>&copy;André Anderson</p>
+    </footer>
+    
+</body>
+</html>

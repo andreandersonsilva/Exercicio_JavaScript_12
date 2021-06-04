@@ -1,0 +1,35 @@
+body{
+    background: rgb(172, 172, 241);
+    font:normal 15pt arial;
+}
+
+header{
+    text-align: center;
+    color:white;
+    padding: 20px;
+}
+
+section{
+    background:white;
+    border-radius: 10px;
+    padding: 15px;
+    /* Fixando a largura*/
+    width: 500px;
+    /* Centralizar*/
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
+}
+
+footer{
+    text-align: center;
+    color:white;
+    font-style: italic;
+}
+
+/* Ajustando as imagens dentro da DIV*/
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
